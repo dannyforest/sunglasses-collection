@@ -15,7 +15,7 @@
       "function": {
         "collectionlunettes": {
           "deploymentBucketName": "amplify-collectionlunettes-dev-54c86-deployment",
-          "s3Key": "amplify-builds/collectionlunettes-66523476446d39413654-build.zip"
+          "s3Key": "amplify-builds/collectionlunettes-5a56347470735673752b-build.zip"
         }
       },
       "auth": {

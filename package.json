@@ -1,5 +1,5 @@
 {
-  "name": "untitled",
+  "name": "pratique-exam-mi-session",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,5 +40,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "https://ke6ifmsbt8.execute-api.us-east-1.amazonaws.com/dev/"
 }

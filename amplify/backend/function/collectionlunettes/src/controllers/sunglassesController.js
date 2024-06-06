@@ -24,9 +24,15 @@ exports.sunglasses_detail = asyncHandler(async (req, res, next) => {
 // Handle sunglasses create on POST.
 exports.sunglasses_create = asyncHandler(async (req, res, next) => {
     await executeQuery(`mutation CreateUserSunglasses(
-      $input: CreateUserSunglassesInput!
+      $userId: String!,
+      $brand: String!,
+      $model: String!,
+      $color: String,
+      $polarized: Boolean,
+      $tint: String,
+      $purchasePrice: Int
       ) {
-      createUserSunglasses(input: $input) {
+      createUserSunglasses(input: {userId: $userId, brand: $brand, model: $model, color: $color, polarized: $polarized, tint: $tint, purchasePrice: $purchasePrice}) {
           id
           userId
           brand
