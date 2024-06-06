@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-collectionlunettes-dev-54c86-authRole",
+      "UnauthRoleArn": "arn:aws:iam::381492272245:role/amplify-collectionlunettes-dev-54c86-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::381492272245:role/amplify-collectionlunettes-dev-54c86-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-collectionlunettes-dev-54c86-deployment",
+      "UnauthRoleName": "amplify-collectionlunettes-dev-54c86-unauthRole",
+      "StackName": "amplify-collectionlunettes-dev-54c86",
+      "StackId": "arn:aws:cloudformation:us-east-1:381492272245:stack/amplify-collectionlunettes-dev-54c86/2ae72a30-2424-11ef-9c18-0e3bb866ed39",
+      "AmplifyAppId": "d15jirna5j5rrr"
+    },
+    "categories": {
+      "function": {
+        "collectionlunettes": {
+          "deploymentBucketName": "amplify-collectionlunettes-dev-54c86-deployment",
+          "s3Key": "amplify-builds/collectionlunettes-5a56347470735673752b-build.zip"
+        }
+      },
+      "auth": {
+        "collectionlunettes284d8331": {}
+      },
+      "api": {
+        "collectionlunettes": {},
+        "collectionlunettesapi": {}
+      }
+    }
+  }
+}
