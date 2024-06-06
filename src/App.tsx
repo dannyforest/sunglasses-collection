@@ -1,8 +1,22 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import axios from "axios";
 
 function App() {
+  useEffect(() => {
+    axios({
+      method: 'post',
+      headers:  {
+        'Content-Type': 'application/json'
+      },
+      url: 'https://ke6ifmsbt8.execute-api.us-east-1.amazonaws.com/dev/sunglasses/?brand=Ray-Ban'
+    }).then(res => {
+      console.log(res.data);
+    })
+  }, []);
+
+
   return (
     <div className="App">
       <header className="App-header">
